@@ -1,0 +1,18 @@
+Package: ColonyFileGenerator
+Title: Generate a Colony Input Data File from VCF
+Version: 1.0.0
+Authors@R: 
+    person(first = "Robert",
+           last = "Cooper",
+           email = "robert.cooper@ucla.edu",
+           role = c("aut", "cre"))
+Description: This package takes a filtered VCF file and converts it into a file that can be used in the software Colony (https://www.zsl.org/science/software/colony).
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
